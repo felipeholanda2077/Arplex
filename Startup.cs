@@ -25,16 +25,17 @@ namespace Atv_2
         [Obsolete]
         public void ConfigureServices(IServiceCollection services)
         {
-            services.Configure<CookiePolicyOptions>(options =>
+        services.Configure<CookiePolicyOptions>(options =>
             {
                 options.CheckConsentNeeded = context => false;
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
-
+            
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
             services.AddMemoryCache();
             services.AddSession();
         }
+        
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -46,12 +47,14 @@ namespace Atv_2
             else
             {
                 app.UseExceptionHandler("/Home/Error");
-
+                //Https
                 app.UseHsts();
             }
+            //Https
             app.UseHttpsRedirection();
             app.UseCookiePolicy();
             app.UseSession();
+            //dotnet dev-certs https --trust
             
             app.UseStaticFiles();
 

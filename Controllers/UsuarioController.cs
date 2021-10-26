@@ -10,8 +10,9 @@ using Atv_2.Models;
 
 namespace Atv_2.Controllers
 {
-    public class UsuarioController : Controller
+    public class UsuarioController: Controller
     {
+
         public IActionResult Login(){
             return View();
         }
@@ -23,11 +24,11 @@ namespace Atv_2.Controllers
            Usuario userEncontrado = ur.ValidarLogin(u);
 
            if (userEncontrado==null){
-              ViewBag.Mensagem = "Login não sucedido";
+              ViewBag.Mensagem = "Falha no Login!";
               return View();
             } else {
               
-              
+              //registrar na sessao: ID e nome do Usuario logado
               HttpContext.Session.SetInt32("IdUsuario",userEncontrado.Id);
               HttpContext.Session.SetString("NomeUsuario",userEncontrado.Nome);
 
@@ -37,7 +38,7 @@ namespace Atv_2.Controllers
         }
 
         public IActionResult Logout(){
-            HttpContext.Session.Clear(); 
+            HttpContext.Session.Clear(); //Limpa todos os dados registrados na sessao
             return RedirectToAction("Login","Usuario");
         }
 
@@ -48,7 +49,7 @@ namespace Atv_2.Controllers
 
        public IActionResult Editar(int Id){
 
-           if (HttpContext.Session.GetInt32("idUsuario")==null){ 
+           if (HttpContext.Session.GetInt32("idUsuario")==null){ //Valida se o usuario esta logado?
                 return RedirectToAction("Login","Usuario");
             }
 
@@ -99,5 +100,6 @@ namespace Atv_2.Controllers
             List<Usuario> Lista = ur.Listar();
             return View(Lista);
         }
+
     }
 }

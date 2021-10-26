@@ -20,6 +20,9 @@ namespace Atv_2.Controllers
 
         public IActionResult Index()
         {
+            UsuarioRepository ur = new UsuarioRepository();
+            ur.TestarConexao();
+            
             return View();
         }
 
