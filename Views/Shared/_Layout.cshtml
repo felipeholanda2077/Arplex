@@ -24,13 +24,13 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Usuario"
-                                asp-action="Cadastro">Cadastrar</a>
+                                asp-action="Cadastro">Cadastrar Usuario</a>
                         </li>
                         @if (Context.Session.GetInt32("IdUsuario") == null)
                         {
                             <li class="nav-item">
                                 <a class="nav-link text-dark" asp-area="" asp-controller="Usuario"
-                                asp-action="Login1">Login</a>
+                                asp-action="Login">Login</a>
                             </li>
                         }
                         else
@@ -65,7 +65,7 @@
 
     <footer class="border-top footer text-muted">
         <div class="container">
-            &copy; 2021 - Arplex - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            &copy; 2021 - Arplex Brasil Operadora e Agência de Viagens S.A - CNPJ: 10.760.260/0001-1 --<a asp-area="" asp-controller="Home" asp-action="Privacy">Politica de privacidade</a>
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>

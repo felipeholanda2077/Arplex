@@ -12,7 +12,7 @@ namespace Atv_2.Models
         //Cadastrar,Listar,Alterar,Editar,Excluir - CRUD (C - create, R - read, U - update, D - Delete
 
         //definir as credencias do banco de dados
-        private const string DadosConexao = "Database=atv2_uc04; Data Source=localhost; User Id=root;";
+        private const string DadosConexao = "Database=atv_2; Data Source=localhost; User Id=root;";
 
         public void TestarConexao()
         {

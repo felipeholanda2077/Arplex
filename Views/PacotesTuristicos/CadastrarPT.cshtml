@@ -1,0 +1,66 @@
+@model PacotesTuristicos
+@{
+    ViewData["Title"] = "CadastroPT";
+}
+
+<form method="POST" asp-action="CadastroPT">
+
+    <p>
+        <label asp-for="Nome">Informe seu Nome:</label>
+        <input asp-for="Nome">
+    </p>
+
+    <p>
+        <label asp-for="Origem">Sua Origem:  <select name="Destino">
+            <option>Nenhum</option>
+            <option>São Paulo</option>
+            <option>Rio de janeiro</option>
+            <option>Brasilia</option>
+            <option>Alagoas</option>
+            <option>Amazonas</option>
+            <option>Espirito Santo</option>
+        </label></select>
+    </p>
+
+    <p>
+        <label asp-for="Destino">Seu Destino: <select name="Destino">
+            <option>Nenhum</option>
+            <option>São Paulo</option>
+            <option>Rio de janeiro</option>
+            <option>Brasilia</option>
+            <option>Alagoas</option>
+            <option>Amazonas</option>
+            <option>Espirito Santo</option>
+        </label></select>
+    </p>
+
+    <p>
+        <label asp-for="Atrativos">Informe Atrativos:</label>
+        <input asp-for="Atrativos">
+    </p>
+
+    <p>
+        <label asp-for="Saida">Informe sua Saida:</label>
+        <input asp-for="Saida" type="date">
+    </p>
+
+    <p>
+        <label asp-for="Retorno">Informe seu Retorno:</label>
+        <input asp-for="Retorno" type="date">
+    </p>
+
+
+    <p>
+        <input type="submit" value="Cadastrar">
+    </p>
+
+</form>
+
+<br>
+<br>
+<br>
+
+<h1>A Arplex informa.</h1>
+<h3>Devido ao vírus Covid-19 operaremos com apenas alguns aeroportos no pais, para a segurança sua e de nossos clientes.</h3>
+<br>
+<h4>Obrigado pela coperação</h4>
