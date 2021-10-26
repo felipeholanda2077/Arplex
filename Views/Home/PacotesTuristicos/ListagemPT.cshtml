@@ -1,0 +1,37 @@
+@model List<PacotesTuristicos>
+
+@{
+    ViewData["Title"] = "ListagemPT";
+}
+
+<h1>PacotesTuristicos</h1>
+<br>
+
+<table class="table table table-dark">
+    <tr>
+        <td>Id</td>
+        <td>Nome</td>
+        <td>Origem</td>
+        <td>Destino</td>
+        <td>Atrativos</td>
+        <td>Saida</td>
+        <td>Retorno</td>
+    </tr>
+
+    @foreach (PacotesTuristicos pt in Model)
+    {
+        <tr>
+            <td>@pt.Id</td>
+            <td>@pt.Nome</td>
+            <td>@pt.Origem</td>
+            <td>@pt.Destino</td>
+            <td>@pt.Atrativos</td>
+            <td>@pt.Saida.ToShortDateString()</td>
+            <td>@pt.Retorno.ToShortDateString()</td>
+            <td>
+                <a href="/PacotesTuristicos/EditarPT?Id=@pt.Id">Alterar</a> |
+                <a href="/PacotesTuristicos/ExcluirPT?Id=@pt.Id" onclick="return confirm('Deseja mesmo Excluir este ítem');">Remover</a>
+            </td>
+        </tr>
+    }
+</table>

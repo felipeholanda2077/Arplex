@@ -1,0 +1,43 @@
+@model PacotesTuristicos
+@{
+    ViewData["Title"] = "CadastroPT";
+}
+
+<form method="POST" asp-action="CadastroPT">
+
+<p>
+    <label asp-for="Nome">Informe seu Nome:</label>
+    <input asp-for="Nome">
+</p>
+
+<p>
+    <label asp-for="Origem">Origem:</label>
+    <input asp-for="Origem">
+</p>
+
+<p>
+    <label asp-for="Destino">Informe seu Destino:</label>
+    <input asp-for="Destino">
+</p>
+
+<p>
+    <label asp-for="Atrativos">Informe Atrativos:</label>
+    <input asp-for="Atrativos">
+</p>
+
+<p>
+    <label asp-for="Saida">Informe sua Saida:</label>
+    <input asp-for="Saida" type="date">
+</p>
+
+<p>
+    <label asp-for="Retorno">Informe seu Retorno:</label>
+    <input asp-for="Retorno" type="date">
+</p>
+
+
+<p>
+    <input type="submit" value="Cadastrar">
+</p>
+
+</form>

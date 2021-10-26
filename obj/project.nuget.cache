@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "2rQqF8qsRF7rII0+ocKiZ58OBovbztU/cODrvvuSEF81UxIOvx3cEWoQm+fckyVPRhwv2tBzFyfzDOoRobpXsQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\felip\\OneDrive\\Documentos\\Conjunto ATV- 2 SARAH\\Atv-2\\Atv-2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\felip\\.nuget\\packages\\mysqlconnector\\1.3.14\\mysqlconnector.1.3.14.nupkg.sha512"
+  ],
+  "logs": []
+}
