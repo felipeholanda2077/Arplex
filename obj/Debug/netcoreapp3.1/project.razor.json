@@ -14402,21 +14402,6 @@
   "RootNamespace": "Atv_2",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\felip\\OneDrive\\Documentos\\Conjunto ATV- 2 SARAH\\Atv-2\\Views\\Home\\Usuario\\Login.cshtml",
-      "TargetPath": "Views\\Home\\Usuario\\Login.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\felip\\OneDrive\\Documentos\\Conjunto ATV- 2 SARAH\\Atv-2\\Views\\Home\\Usuario\\Cadastro.cshtml",
-      "TargetPath": "Views\\Home\\Usuario\\Cadastro.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\felip\\OneDrive\\Documentos\\Conjunto ATV- 2 SARAH\\Atv-2\\Views\\Home\\Usuario\\Listagem.cshtml",
-      "TargetPath": "Views\\Home\\Usuario\\Listagem.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "c:\\Users\\felip\\OneDrive\\Documentos\\Conjunto ATV- 2 SARAH\\Atv-2\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
@@ -14437,8 +14422,13 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\felip\\OneDrive\\Documentos\\Conjunto ATV- 2 SARAH\\Atv-2\\Views\\Home\\Usuario\\Editar.cshtml",
-      "TargetPath": "Views\\Home\\Usuario\\Editar.cshtml",
+      "FilePath": "c:\\Users\\felip\\OneDrive\\Documentos\\Conjunto ATV- 2 SARAH\\Atv-2\\Views\\Usuario\\Login.cshtml",
+      "TargetPath": "Views\\Usuario\\Login.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\felip\\OneDrive\\Documentos\\Conjunto ATV- 2 SARAH\\Atv-2\\Views\\Usuario\\Editar.cshtml",
+      "TargetPath": "Views\\Usuario\\Editar.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -14447,13 +14437,23 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\felip\\OneDrive\\Documentos\\Conjunto ATV- 2 SARAH\\Atv-2\\Views\\Home\\PacotesTuristicos\\CadastrarPT.cshtml",
-      "TargetPath": "Views\\Home\\PacotesTuristicos\\CadastrarPT.cshtml",
+      "FilePath": "c:\\Users\\felip\\OneDrive\\Documentos\\Conjunto ATV- 2 SARAH\\Atv-2\\Views\\Usuario\\Listagem.cshtml",
+      "TargetPath": "Views\\Usuario\\Listagem.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\felip\\OneDrive\\Documentos\\Conjunto ATV- 2 SARAH\\Atv-2\\Views\\Home\\PacotesTuristicos\\ListagemPT.cshtml",
-      "TargetPath": "Views\\Home\\PacotesTuristicos\\ListagemPT.cshtml",
+      "FilePath": "c:\\Users\\felip\\OneDrive\\Documentos\\Conjunto ATV- 2 SARAH\\Atv-2\\Views\\PacotesTuristicos\\EditarPT.cshtml",
+      "TargetPath": "Views\\PacotesTuristicos\\EditarPT.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\felip\\OneDrive\\Documentos\\Conjunto ATV- 2 SARAH\\Atv-2\\Views\\PacotesTuristicos\\ListagemPT.cshtml",
+      "TargetPath": "Views\\PacotesTuristicos\\ListagemPT.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\felip\\OneDrive\\Documentos\\Conjunto ATV- 2 SARAH\\Atv-2\\Views\\Usuario\\Cadastro.cshtml",
+      "TargetPath": "Views\\Usuario\\Cadastro.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -14462,13 +14462,13 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\felip\\OneDrive\\Documentos\\Conjunto ATV- 2 SARAH\\Atv-2\\Views\\Home\\PacotesTuristicos\\EditarPT.cshtml",
-      "TargetPath": "Views\\Home\\PacotesTuristicos\\EditarPT.cshtml",
+      "FilePath": "c:\\Users\\felip\\OneDrive\\Documentos\\Conjunto ATV- 2 SARAH\\Atv-2\\Views\\Shared\\Error.cshtml",
+      "TargetPath": "Views\\Shared\\Error.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\felip\\OneDrive\\Documentos\\Conjunto ATV- 2 SARAH\\Atv-2\\Views\\Shared\\Error.cshtml",
-      "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FilePath": "c:\\Users\\felip\\OneDrive\\Documentos\\Conjunto ATV- 2 SARAH\\Atv-2\\Views\\PacotesTuristicos\\CadastrarPT.cshtml",
+      "TargetPath": "Views\\PacotesTuristicos\\CadastrarPT.cshtml",
       "FileKind": "mvc"
     }
   ],
