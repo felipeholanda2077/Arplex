@@ -13,7 +13,7 @@ namespace Atv_2.Controllers
     public class UsuarioController: Controller
     {
 
-        public IActionResult Login(){
+        public IActionResult Login(){ // Faz o login na pagina
             return View();
         }
 
@@ -37,7 +37,7 @@ namespace Atv_2.Controllers
         
         }
 
-        public IActionResult Logout(){
+        public IActionResult Logout(){ // Sai do login da pagina inteira
             HttpContext.Session.Clear(); //Limpa todos os dados registrados na sessao
             return RedirectToAction("Login","Usuario");
         }
@@ -65,7 +65,7 @@ namespace Atv_2.Controllers
 
         }
         
-       public IActionResult Excluir(int Id){
+       public IActionResult Excluir(int Id){ // Exclui o Usuario Cadastrado
            
            UsuarioRepository ur = new UsuarioRepository();
            Usuario userEncontrado = ur.BuscarPorId(Id);

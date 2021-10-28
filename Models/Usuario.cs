@@ -2,7 +2,7 @@ using System;
 
 namespace Atv_2.Models
 {
-    public class Usuario
+    public class Usuario // Classes do Usuarios
     {
         public int Id {get;set;}
         public string Nome {get;set;}

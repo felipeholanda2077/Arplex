@@ -11,12 +11,12 @@ namespace Atv_2.Controllers
 {
     public class PacotesTuristicosController : Controller
     {
-        public IActionResult CadastrarPT()
+        public IActionResult CadastrarPT() // Cadastrar os pacotes turisticos em uma pagina
         {
             return View();
         }
 
-        public IActionResult EditarPT(int Id)
+        public IActionResult EditarPT(int Id) // Edita os pacotes Turisticos em uma pagina
         {
             PacotesTuristicosRepository pt = new PacotesTuristicosRepository();
             PacotesTuristicos PacoteEncontrado = pt.BuscarPorId(Id);
@@ -35,7 +35,7 @@ namespace Atv_2.Controllers
 
         }
 
-        public IActionResult ExcluirPT(int Id)
+        public IActionResult ExcluirPT(int Id) // Eclui os pacotes
         {
 
             PacotesTuristicosRepository pt = new PacotesTuristicosRepository();
@@ -57,7 +57,7 @@ namespace Atv_2.Controllers
 
         }
 
-        public IActionResult ListagemPT()
+        public IActionResult ListagemPT() // Lista os pacotes
         {
 
             PacotesTuristicosRepository pt = new PacotesTuristicosRepository();
