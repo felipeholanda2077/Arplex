@@ -49,10 +49,6 @@ namespace Atv_2.Controllers
 
        public IActionResult Editar(int Id){
 
-           if (HttpContext.Session.GetInt32("idUsuario")==null){ //Valida se o usuario esta logado?
-                return RedirectToAction("Login","Usuario");
-            }
-
            UsuarioRepository ur = new UsuarioRepository();
            Usuario userEncontrado = ur.BuscarPorId(Id);
            return View(userEncontrado);
@@ -70,10 +66,6 @@ namespace Atv_2.Controllers
         }
         
        public IActionResult Excluir(int Id){
-           
-           if (HttpContext.Session.GetInt32("idUsuario")==null){ //Valida se o usuario esta logado?
-                return RedirectToAction("Login","Usuario");
-            }
            
            UsuarioRepository ur = new UsuarioRepository();
            Usuario userEncontrado = ur.BuscarPorId(Id);

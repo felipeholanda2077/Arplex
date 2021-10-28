@@ -14,7 +14,7 @@ namespace Atv_2.Models
         //definir as credencias do banco de dados
         private const string DadosConexao = "Database=atv_2; Data Source=localhost; User Id=root;";
 
-        public void TestarConexao()
+        public void TestarConexao() // Testa a conexão para ver se está online
         {
 
             MySqlConnection Conexao = new MySqlConnection(DadosConexao);
@@ -23,7 +23,7 @@ namespace Atv_2.Models
             Conexao.Close();
         }
 
-        public Usuario ValidarLogin(Usuario user)
+        public Usuario ValidarLogin(Usuario user) // Valida o Login do Usuario
         {
 
             MySqlConnection Conexao = new MySqlConnection(DadosConexao);
@@ -61,7 +61,7 @@ namespace Atv_2.Models
             return UsuarioEncontrado;
         }
 
-        public Usuario BuscarPorId(int Id)
+        public Usuario BuscarPorId(int Id) // Busca por ID de usuario
         {
 
             MySqlConnection Conexao = new MySqlConnection(DadosConexao);

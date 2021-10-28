@@ -8,7 +8,7 @@ namespace Atv_2.Models
     {
         private const string DadosConexao = "Database=atv_2; Data Source=localhost; User Id=root;";
 
-        public PacotesTuristicos BuscarPorId(int Id)
+        public PacotesTuristicos BuscarPorId(int Id) // Metodo de busca
         {
 
             MySqlConnection Conexao = new MySqlConnection(DadosConexao);
@@ -50,7 +50,7 @@ namespace Atv_2.Models
         }
 
 
-        public List<PacotesTuristicos> ListarPT()
+        public List<PacotesTuristicos> ListarPT() // è a listagem de cada Pacote
         {
 
             MySqlConnection Conexao = new MySqlConnection(DadosConexao);
@@ -94,7 +94,7 @@ namespace Atv_2.Models
             return ListaPt;
         }
 
-        public void CadastrarPT(PacotesTuristicos pt)
+        public void CadastrarPT(PacotesTuristicos pt) //Cadastra os pacotes
         {
 
             MySqlConnection Conexao = new MySqlConnection(DadosConexao);
@@ -118,7 +118,7 @@ namespace Atv_2.Models
         }
 
 
-        public void EditarPT(PacotesTuristicos pt)
+        public void EditarPT(PacotesTuristicos pt) // Edita os pacotes turisticos
         {
 
             MySqlConnection Conexao = new MySqlConnection(DadosConexao);
@@ -143,7 +143,7 @@ namespace Atv_2.Models
         }
 
 
-        public void ExcluirPT(PacotesTuristicos pt)
+        public void ExcluirPT(PacotesTuristicos pt) // Exclui os pacotes Turisticos
         {
 
             MySqlConnection Conexao = new MySqlConnection(DadosConexao);
