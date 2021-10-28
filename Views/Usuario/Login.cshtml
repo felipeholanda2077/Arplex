@@ -5,24 +5,33 @@
 
 <form method="POST" asp-action="Login">
 
-<p>
-    <label asp-for="Login">Login:</label>
-    <input asp-for="Login">
-</p>
+    <style>
+        body {
+            background-image: url("https://ceabbrasil.com.br/blog/wp-content/uploads/2015/06/Airbus-A380.jpg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+    </style>
 
-<p>
-    <label asp-for="Senha">Informe sua Senha:</label>
-    <input asp-for="Senha" type="password">
-</p>
+<h1>Faça seu Login: </h1>
+<br>
+    <p>
+        <label asp-for="Login">Login:</label>
+        <input asp-for="Login">
+    </p>
 
-<p>
-    <input type="submit" value="Acessar">
-</p>
+    <p>
+        <label asp-for="Senha">Informe sua Senha:</label>
+        <input asp-for="Senha" type="password">
+    </p>
+
+    <p>
+        <input type="submit" value="Acessar">
+    </p>
 
 </form>
 
 <p>
     @ViewBag.Mensagem
 </p>
-
- 
