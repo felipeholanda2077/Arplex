@@ -13,12 +13,26 @@
         <input asp-for="Nome">
     </p>
     <p>
-        <label asp-for="Origem">Origem:</label>
-        <input asp-for="Origem">
+        <label asp-for="Origem">Origem: <select name="Origem">
+        <option>Nenhum</option>
+        <option>São Paulo</option>
+        <option>Rio de janeiro</option>
+        <option>Brasilia</option>
+        <option>Alagoas</option>
+        <option>Amazonas</option>
+        <option>Espirito Santo</option>
+        </label></select>
     </p>
     <p>
-        <label asp-for="Destino">Destino:</label>
-        <input asp-for="Destino">
+        <label asp-for="Destino">Destino: <select name="Destino">
+        <option>Nenhum</option>
+        <option>São Paulo</option>
+        <option>Rio de janeiro</option>
+        <option>Brasilia</option>
+        <option>Alagoas</option>
+        <option>Amazonas</option>
+        <option>Espirito Santo</option>
+        </label></select>
     </p>
     <p>
         <label asp-for="Atrativos">Atrativos:</label>
