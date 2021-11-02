@@ -31,7 +31,6 @@
   #### Ferramentas
 
   - [**VS CODE**](https://code.visualstudio.com/)
-  - [**BOOTSTRAP**](https://getbootstrap.com/)
 
 <br>
 
