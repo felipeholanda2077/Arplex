@@ -6,7 +6,7 @@
 
 # 👨🏻‍💻 Sobre o Projeto
 
-<h4>Site pessoal feito para poder descobrir um pouco mais sobre mim.</h4>
+<h4>Site em C# com Cshtml com banco de dados em SQL</h4>
 
 <br>
 
@@ -25,7 +25,8 @@
   - [x] **HTML**
   - [x] **CSS**
   - [x] **JS**
-  - [x] **SCSS**
+  - [x] **CSHTML**
+  - [x] **SQL**
 
   #### Ferramentas
 
