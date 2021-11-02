@@ -12,18 +12,11 @@
 
 <p aling="center">Esse projeto...</p>
 <a href="#sobre">Sobre</a> •
-<a href="#Imagem">Imagem</a> •
 <a href="#Tecnologias">Tecnologias</a> •
 <a href="#Ferramentas">Ferramentas</a>
 
 <br>
 <br>
-
-## Imagem
-
-<h1 aling="center">
-   <img alt="Readme" title="Readme" src="PaginaREADME.png" />
-</h1>
 
   ### Tecnologias 🚀
 
