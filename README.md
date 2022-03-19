@@ -4,15 +4,15 @@
    </a>
 </p>
 
-# 👨🏻‍💻 Sobre o Projeto
+<h1 align="center"> 👨🏻‍💻 Sobre o Projeto</h1>
 
-<h4>Site em C# com Cshtml com banco de dados em SQL</h4>
+<h4 align="center">Site em C# com Cshtml com banco de dados em SQL</h4>
 
 <br>
 
 <p aling="center">Esse projeto...</p>
 <a href="#sobre">Sobre</a> •
-<a href="#Tecnologias">Tecnologias</a> •
+<a href="#Tecnologias-">Tecnologias</a> •
 <a href="#Ferramentas">Ferramentas</a>
 
 <br>
