@@ -10,10 +10,10 @@
 
 <br>
 
-<p aling="center">Esse projeto...</p>
+<p align="center">ÍNDICE<br>
 <a href="#sobre">Sobre</a> •
 <a href="#Tecnologias-">Tecnologias</a> •
-<a href="#Ferramentas">Ferramentas</a>
+<a href="#Ferramentas">Ferramentas</a></p>
 
 <br>
 <br>
