@@ -18,7 +18,7 @@
 <br>
 <br>
 
-  ### Tecnologias 🚀
+  <h1 align="center"> Tecnologias 🚀</h1>
 
   As seguintes ferramentas foram usadas na construção do projeto:
 
