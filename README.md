@@ -16,7 +16,6 @@
 <a href="#Ferramentas">Ferramentas</a></p>
 
 <br>
-<br>
 
   <h1 align="center"> Tecnologias 🚀</h1>
 
