@@ -4,7 +4,7 @@
    </a>
 </p>
 
-<h1 align="center"> 👨🏻‍💻 Sobre o Projeto</h1>
+<h1 align="center"> 👨🏻‍💻 Sobre o Projeto - Finalizado</h1>
 
 <h4 align="center">Site em C# com Cshtml com banco de dados em SQL</h4>
 
