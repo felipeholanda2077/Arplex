@@ -20,11 +20,18 @@
 
   <p align="center">As seguintes ferramentas foram usadas na construção do projeto: </p>
 
-  <p align="center"> - [x] **HTML**
-                    - [x] **CSS**
-                    - [x] **JS**
-                    - [x] **CSHTML**
-                    - [x] **SQL**
+  <p align="center"> 
+   
+   - [x] **HTML**
+                    
+   - [x] **CSS**
+                    
+   - [x] **JS**
+                    
+   - [x] **CSHTML**
+                    
+   - [x] **SQL**
+   
   </p>
 
   #### Ferramentas
