@@ -18,13 +18,14 @@
 
   <h1 align="center"> Tecnologias 🚀</h1>
 
-  As seguintes ferramentas foram usadas na construção do projeto:
+  <p align="center">As seguintes ferramentas foram usadas na construção do projeto:
 
   - [x] **HTML**
   - [x] **CSS**
   - [x] **JS**
   - [x] **CSHTML**
   - [x] **SQL**
+  </p>
 
   #### Ferramentas
 
