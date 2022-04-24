@@ -20,7 +20,7 @@
 
   <p align="center">As seguintes ferramentas foram usadas na construção do projeto:
 
-  <p align="center">- [x] **HTML**
+  <p align="center"> - [x] **HTML**
                     - [x] **CSS**
                     - [x] **JS**
                     - [x] **CSHTML**
