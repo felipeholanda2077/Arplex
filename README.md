@@ -11,6 +11,8 @@
 <a href="#Tecnologias-">Tecnologias</a> •
 <a href="#Ferramentas">Ferramentas</a></p>
 
+<br>
+
 <h1 align="center"> 👨🏻‍💻 Sobre o Projeto - Finalizado</h1>
 <h4 align="center">Site em C# com Cshtml com banco de dados em SQL</h4>
 
