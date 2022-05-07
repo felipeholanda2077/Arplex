@@ -4,17 +4,16 @@
    </a>
 </p>
 
-<h1 align="center"> 👨🏻‍💻 Sobre o Projeto - Finalizado</h1>
-<h4 align="center">Site em C# com Cshtml com banco de dados em SQL</h4>
-
-<br>
 
 <p align="center">ÍNDICE<br>
 <a href="#sobre">Sobre</a> •
 <a href="#Tecnologias-">Tecnologias</a> •
 <a href="#Ferramentas">Ferramentas</a></p>
 
-<br>
+<h1 align="center"> 👨🏻‍💻 Sobre o Projeto - Finalizado</h1>
+<h4 align="center">Site em C# com Cshtml com banco de dados em SQL</h4>
+
+<br><br>
 
   <h1 align="center"> Tecnologias 🚀</h1>
 
